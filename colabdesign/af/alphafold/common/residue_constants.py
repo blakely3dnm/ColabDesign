@@ -887,10 +887,10 @@ restype_3to1 = {
     'DAL': 'A',
     'DAR': 'R',
     'DAS': 'D',
-    'DSG': 'N'
+    'DSG': 'N',
     'DCY': 'C',
     'DGL': 'E',
-    'DGN': 'Q'
+    'DGN': 'Q',
     'DHI': 'H',
     'DIL': 'I',
     'DLE': 'L',
