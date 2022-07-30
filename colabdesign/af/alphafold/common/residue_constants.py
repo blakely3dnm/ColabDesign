@@ -480,7 +480,7 @@ rigid_group_atom_positions = {
         ['SD', 5, (-0.703, 1.695, 0.000)],
         ['CE', 6, (-0.320, 1.786, -0.000)],
     ],
-    'DPN: [
+    'DPN': [
         ['N', 0, (0.518, 1.363, 0.000)],
         ['CA', 0, (0.000, 0.000, 0.000)],
         ['C', 0, (-1.524, 0.000, -0.000)],
@@ -865,7 +865,46 @@ restype_1to3 = {
 # 1-to-1 mapping of 3 letter names to one letter names. The latter contains
 # many more, and less common, three letter names as keys and maps many of these
 # to the same one letter name (including 'X' and 'U' which we don't use here).
-restype_3to1 = {v: k for k, v in restype_1to3.items()}
+restype_3to1 = {
+    'ALA': 'A',
+    'ARG': 'R',
+    'ASN': 'N',
+    'ASP': 'D',
+    'CYS': 'C',
+    'GLN': 'Q',
+    'GLU': 'E',
+    'GLY': 'G',
+    'HIS': 'H',
+    'ILE': 'I',
+    'LYS': 'K',
+    'MET': 'M',
+    'PHE': 'F',
+    'PRO': 'P',
+    'SER': 'S',
+    'THR': 'T',
+    'TYR': 'Y',
+    'VAL': 'V',
+    'DAL': 'A',
+    'DAR': 'R',
+    'DAS': 'D',
+    'DSG': 'N'
+    'DCY': 'C',
+    'DGL': 'E',
+    'DGN': 'Q'
+    'DHI': 'H',
+    'DIL': 'I',
+    'DLE': 'L',
+    'DLY': 'K',
+    'MED': 'M',
+    'DPN': 'F',
+    'DPR': 'P',
+    'DSN': 'S',
+    'DTH': 'T',
+    'DTR': 'W',
+    'DTY': 'Y',
+    'DVA': 'V',
+    
+}
 
 # Define a restype name for all unknown residues.
 unk_restype = 'UNK'
