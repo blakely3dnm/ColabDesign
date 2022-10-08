@@ -1,3 +1,7 @@
+Eventual aim is to hack ColabDesign to support D-amino acids binding L-targets. I would make this private if I could as my editing of the code without an IDE isn't very pretty. 
+
+
+
 # ColabDesign
 ### Making Protein Design accessible to all via Google Colab! 
 ```bash
